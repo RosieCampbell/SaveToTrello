@@ -11,11 +11,13 @@
     ],
     "browser_action": {
         "default_title": "Save to Trello",
-        "default_icon": "trello.png"
+        "default_icon": "trello.png",
+        "default_popup": "popup.html"
+
     },
     "content_scripts": [{
         "matches": ["http://*/*", "https://*/*"],
-        "js": ["jquery.js", "client.js", "hash.js", "content.js"]
+        "js": ["jquery.js", "client.js", "hash.js", "overlay.js", "content.js"]
     }],
     "manifest_version": 2
 }
