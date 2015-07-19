@@ -29,7 +29,7 @@ function getBoardLists(board) {
     Trello.boards.get(board + "/lists", function(data) {
         var listId = data[0].id;
         Trello.post("cards", {
-            name: $('meta[property="og:title"]').attr('content') || document.getElementsByTagName("title").innerText,
+            name: $('meta[property="og:title"]').attr('content') || document.getElementsByTagName("title")[0].innerText,
             desc: $('meta[property="og:description"]').attr('content') || "",
             urlSource: document.URL,
             idList: listId,
