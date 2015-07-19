@@ -10,8 +10,9 @@ The extension will save the title, description and URL of the page, as well as a
 
 ##To Install
 1. Download all the files into a folder on your computer.
-2. Go to [chrome://extensions](chrome://extensions/) and click 'Load unpacked extension...'.
-3. Navigate to the folder and select it.
+2. Go to [chrome://extensions](chrome://extensions/) and make sure you have ticked 'enable developer mode'.
+3. Click 'Load unpacked extension...'.
+4. Navigate to the folder and select it.
 
 (You will need to refresh any open webpages before the extension will work on them)
 
