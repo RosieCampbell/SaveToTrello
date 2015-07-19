@@ -14,3 +14,5 @@ The extension will save the title, description and URL of the page, as well as a
 3. Navigate to the folder and select it.
 
 (You will need to refresh any open webpages before the extension will work on them)
+
+Disclaimer: This is my first Chrome extension, it might be a bit buggy, and I'll be working to improve the code and address any accessibility issues. If you encounter a problem, let me know :)
